@@ -2,7 +2,7 @@ package com.deloitte.lab5.ex1;
 
 import java.util.Scanner;
 
-//User-defined exception for invalid age
+
 class InvalidAgeException extends Exception {
  public InvalidAgeException(String message) {
      super(message);

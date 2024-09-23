@@ -21,7 +21,7 @@ public class Lab3Ex5 {
         String[] lines = inputText.split("\n");
         int lineCount = lines.length;
 
-        String[] words = inputText.split("\\s+"); // Splits the text by spaces
+        String[] words = inputText.split("\\s+"); 
         int wordCount = words.length;
         
         System.out.println("Number of characters: " + charCount);

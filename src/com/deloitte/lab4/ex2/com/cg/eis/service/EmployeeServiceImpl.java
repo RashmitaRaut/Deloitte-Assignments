@@ -9,12 +9,12 @@ public class EmployeeServiceImpl implements EmployeeService {
     public void getEmployeeDetails(Employee emp) {
         System.out.print("Enter Employee ID: ");
         emp.setId(scanner.nextInt());
-        scanner.nextLine();  // consume newline
+        scanner.nextLine();  
         System.out.print("Enter Employee Name: ");
         emp.setName(scanner.nextLine());
         System.out.print("Enter Employee Salary: ");
         emp.setSalary(scanner.nextDouble());
-        scanner.nextLine();  // consume newline
+        scanner.nextLine();  
         System.out.print("Enter Employee Designation: ");
         emp.setDesignation(scanner.nextLine());
     }
